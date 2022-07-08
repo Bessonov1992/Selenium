@@ -21,5 +21,7 @@ try:
 finally:
     time.sleep(10)
     browser.quit()
+
+
 # математические действия, работа с alert
 

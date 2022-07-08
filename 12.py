@@ -18,3 +18,5 @@ b = browser.find_element(By.CSS_SELECTOR, "#input_value").text
 c = str(math.log(abs(12*math.sin(int(b)))))
 d = browser.find_element(By.CSS_SELECTOR, "input.form-control").send_keys(c)
 e = browser.find_element(By.CSS_SELECTOR, "#solve").click()
+
+
